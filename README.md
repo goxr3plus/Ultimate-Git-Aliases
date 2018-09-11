@@ -20,6 +20,8 @@ Pretty log all commits : `git lg`
 
 #### ---------Oups daddy i regreted , remove alias---------
 
+[Stackoverflow tutorial](https://stackoverflow.com/questions/23512402/how-can-i-delete-a-git-alias)
+
 >git config --global --unset alias.aliasName
 
 For example
