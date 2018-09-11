@@ -18,4 +18,12 @@ Add all and commit : `git ac "Your message"`
 Pretty log all commits : `git lg`
 > git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
 
+#### ---------Oups daddy i regreted , remove alias---------
+
+>git config --global --unset alias.aliasName
+
+For example
+
+>git config --global --unset alias.st
+
 ##### TODO Add more
