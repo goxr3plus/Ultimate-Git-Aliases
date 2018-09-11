@@ -9,5 +9,5 @@ I will add more and more aliases on the future and modify this read me file . Fe
 List all aliases : Usage `git logA`
 > git config --global alias.logA "!git config --get-regexp alias"
 
-List all aliases : Usage `git ac "Your message"`
+Add all and commit : Usage `git ac "Your message"`
 > git config --global alias.ac "!git add -A && git commit"
