@@ -11,3 +11,6 @@ List all aliases : Usage `git logA`
 
 Add all and commit : Usage `git ac "Your message"`
 > git config --global alias.ac "!git add -A && git commit"
+
+Pretty log all commits : Usage `git lg`
+> git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
