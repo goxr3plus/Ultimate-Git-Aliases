@@ -18,6 +18,9 @@ I will add more and more aliases on the future and modify this read me file . Fe
 **4** Pretty log all commits : `git lg`
 > git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
 
+**5** Pretty log only the releaase tags : `git tags`
+>git config --global alias.tags "git log --no-walk --tags --pretty='%h %d %s' --decorate=full"
+
 [More recommendations](https://git-scm.com/book/en/v2/Git-Basics-Git-Aliases) from official git tutorials .
 
 #### --------- Remove Git Aliases---------
