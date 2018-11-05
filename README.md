@@ -18,7 +18,9 @@ I will add more and more aliases on the future and modify this read me file . Fe
 **4** Pretty log all commits : `git lg`
 > git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
 
-#### ---------Oups daddy i regreted , remove alias---------
+[More recommendations](https://git-scm.com/book/en/v2/Git-Basics-Git-Aliases) from official git tutorials .
+
+#### --------- Remove Git Aliases---------
 
 [Stackoverflow tutorial](https://stackoverflow.com/questions/23512402/how-can-i-delete-a-git-alias)
 
@@ -27,5 +29,3 @@ I will add more and more aliases on the future and modify this read me file . Fe
 For example
 
 >git config --global --unset alias.st
-
-##### TODO Add more
