@@ -11,6 +11,12 @@ I will add more and more aliases on the future and modify this read me file . Fe
 **1** Git status : `git st`
 > git config --global alias.st status
 
+ **1.1** Git checkout : `git checkout`
+ > git config --global alias.co checkout
+
+ **1.2** Git branch : `git br`
+ > git config --global alias.br branch
+
 **2** List all aliases : `git logA`
 > git config --global alias.logA "!git config --get-regexp alias"
 
