@@ -1,3 +1,5 @@
+![image](https://git-scm.com/images/logos/downloads/Git-Logo-2Color.png)
+
 # Ultimate-Git-Aliases
 Ma personal favourite git aliases for every day coding . In order for some commands to work on Linux maybe you have to slightly modify them . For example instead of `"` you need to add `'` on bash .
 
