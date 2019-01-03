@@ -5,6 +5,15 @@ Ma personal favourite git aliases for every day coding . In order for some comma
 
 [Cmder](http://cmder.net/) is one of the best tools for console lovers ... it has everything .
 
+## What is Git Alias?
+
+Git Alias is a collection of git version control shortcuts, functions, and commands:
+
+  * Shortcuts such as `s` for `status`.
+  * Improvements such as `optimize` to do a prune and repack with recommended settings.
+  * Topic branch flows such as `topic-start` to create a new topic branch using master.
+  * Visualizations such as `graphviz` to show logs and charts using third-party tools.
+
 #### Good to know
 I will add more and more aliases on the future and modify this read me file . Feel free to pull request if you want some of your own to be added here :)
 
