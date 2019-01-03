@@ -10,15 +10,27 @@ I will add more and more aliases on the future and modify this read me file . Fe
 
 #### On windows CMD and PowerShell
 
-**1** Git status : `git st`
-> git config --global alias.st status
+ **1** Git status : `git st`
+ > git config --global alias.st status
 
- **1.1** Git checkout : `git checkout`
+ **1.1** Git checkout : `git co`
  > git config --global alias.co checkout
 
  **1.2** Git branch : `git br`
  > git config --global alias.br branch
-
+ 
+ **1.3** Git commit : `git c`
+ > git config --global alias.c commit
+ 
+ **1.4** Git push : `git ps`
+ > git config --global alias.ps push
+ 
+ **1.5** Git pull : `git pl`
+ > git config --global alias.pl pull
+ 
+ **1.6** Git pull : `git fetch`
+ > git config --global alias.fe fetch
+ 
 **2** List all aliases : `git logA`
 > git config --global alias.logA "!git config --get-regexp alias"
 
