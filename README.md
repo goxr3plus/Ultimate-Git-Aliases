@@ -73,7 +73,6 @@ For example
 # Complete list taken from the console
 
 ``` java
-alias.co checkout
 alias.br branch
 alias.ci commit
 alias.st status
@@ -95,4 +94,7 @@ alias.fe fetch
 alias.ps push
 alias.cob !git checkout -b
 alias.aliases config --get-regexp alias
+alias.aa add
+alias.co checkout
+
 ```
