@@ -28,7 +28,7 @@ I will add more and more aliases on the future and modify this read me file . Fe
  **1.2** Git checkout : `git co`
  > git config --global alias.co checkout
  
- **1.2.1** Git checkout : `git cob`
+ **1.2.1** Git checkout - create new branch: `git cob`
  > git config --global alias.cob checkout -b
  
  **1.3** Git commit : `git c`
@@ -42,6 +42,9 @@ I will add more and more aliases on the future and modify this read me file . Fe
  
  **1.6** Git fetch : `git fe`
  > git config --global alias.fe fetch
+ 
+  **1.7** Git add all : `git aa`
+ > git config --global alias.aa add -A
  
 **2** List all aliases : `git logA`
 > git config --global alias.logA "!git config --get-regexp alias"
