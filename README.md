@@ -63,3 +63,30 @@ I will add more and more aliases on the future and modify this read me file . Fe
 For example
 
 >git config --global --unset alias.st
+
+# Complete list taken from the console
+
+``` java
+alias.co checkout
+alias.br branch
+alias.ci commit
+alias.st status
+alias.last log -1 HEAD
+alias.visual !gitk
+alias.dfw diff --ignore-space-change
+alias.lg !git log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+alias.fc !git add -A && git commit
+alias.add-commit !git add -A && git commit
+alias.ac !git add -A && git commit
+alias.loga !git config --get-regexp alias
+alias.lg2 log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+alias.tags !git log --no-walk --tags --pretty='%h %d %s' --decorate=full
+alias.doggy !git log --oneline --decorate --all --graph
+alias.c commit
+alias.p push
+alias.pl pull
+alias.fe fetch
+alias.ps push
+alias.cob !git checkout -b
+alias.aliases config --get-regexp alias
+```
