@@ -22,13 +22,14 @@ I will add more and more aliases on the future and modify this read me file . Fe
  **1** Git status : `git st`
  > git config --global alias.st status
 
-  =>***1.1** Git branch : `git br`
+  =>**1.1** Git branch : `git br`
    > git config --global alias.br branch
  
   =>**1.2** Git checkout : `git co`
    > git config --global alias.co checkout
  
    =>**1.2.1** Git checkout - create new branch: `git cob`
+
     > git config --global alias.cob checkout -b
  
   =>**1.3** Git commit : `git c`
