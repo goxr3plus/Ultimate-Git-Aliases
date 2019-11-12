@@ -31,9 +31,9 @@ I will add more and more aliases on the future and modify this read me file . Fe
 
    `> git config --global alias.co checkout`
  
-   =>**1.2.1** Git checkout - create new branch: `git cob`
+  =>**1.2.1** Git checkout - create new branch: `git cob`
 
-    `> git config --global alias.cob checkout -b`
+   `> git config --global alias.cob checkout -b`
  
   =>**1.3** Git commit : `git c`
 
